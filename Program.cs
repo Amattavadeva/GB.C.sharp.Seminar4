@@ -2,7 +2,7 @@
 два числа (A и B) и возводит число A в натуральную
 степень B. */
 
-Console.Write("Введите число А : ");
+/* Console.Write("Введите число А : ");
 int A = int.Parse(Console.ReadLine());
 Console.Write("Введите степень : ");
 int B = int.Parse(Console.ReadLine());
@@ -16,7 +16,7 @@ void Fill(int num, int degree)
     }
     Console.WriteLine("Ответ: " + num_n);
 }
-Fill(A, B);
+Fill(A, B); */
 
 
 /* Задача 27: Напишите программу, которая принимает на
@@ -38,11 +38,10 @@ int Function(int num)
 Console.WriteLine("Сумма цифр в числе = " + Function(num)); */
 
 
-
 /* Задача 29: Напишите программу, которая задаёт массив
 из 8 элементов и выводит их на экран. */
 
-/* Console.WriteLine("Введите размер массива");
+Console.WriteLine("Введите размер массива");
 int num = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите максимальное число в массиве");
@@ -52,19 +51,19 @@ int[] mass = new int[num];
 FillArray(mass);
 PrintArray(mass);
 
-void FillArray(int[] mass)
+void FillArray(int[] array)
 {
-    int length = mass.Length;
+    int length = array.Length;
     for (int index = 0; index < length; index++)
     {
-        mass[index] = new Random().Next(0, maxNum + 1);
+        array[index] = new Random().Next(0, maxNum + 1);
     }
 }
 
-void PrintArray(int[] col)
+void PrintArray(int[] array)
 {
-    for (int i = 0; i < col.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(col[i] + " ");
+        Console.Write(array[i] + " ");
     }
-} */
+}
