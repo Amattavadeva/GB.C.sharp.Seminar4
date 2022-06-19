@@ -10,7 +10,7 @@ int B = int.Parse(Console.ReadLine());
 void Fill(int num, int degree)
 {
     int num_n = 1;
-    for (int i = 0; i < degree; i++)
+    for (int i = 0; i < degree+1; i++)
     {
         num_n *= num;
     }
