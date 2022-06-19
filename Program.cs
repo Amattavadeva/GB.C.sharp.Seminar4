@@ -2,7 +2,7 @@
 два числа (A и B) и возводит число A в натуральную
 степень B. */
 
-/* Console.Write("Введите число А : ");
+Console.Write("Введите число А : ");
 int A = int.Parse(Console.ReadLine());
 Console.Write("Введите степень : ");
 int B = int.Parse(Console.ReadLine());
@@ -16,7 +16,7 @@ void Fill(int num, int degree)
     }
     Console.WriteLine("Ответ: " + num_n);
 }
-Fill(A, B); */
+Fill(A, B);
 
 
 
